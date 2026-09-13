@@ -1116,7 +1116,7 @@ export default function ChatInterface() {
           <div className="relative z-10 px-6 py-4 border-b border-white/5 flex justify-between items-center bg-gradient-to-b from-white/10 to-transparent">
             <div className="flex items-center space-x-3">
               <div className="w-9 h-9 flex items-center justify-center rounded-xl overflow-hidden shadow-md border border-white/10 bg-black/30">
-                <img src="/logo%20copy.png" alt="MoodMitra Logo" className="w-7 h-7 object-contain" />
+                <img src="/logo.png" alt="MoodMitra Logo" className="w-7 h-7 object-contain" />
               </div>
               <div>
                 <h2 className="text-base md:text-lg font-bold text-white tracking-tight">MoodMitra</h2>

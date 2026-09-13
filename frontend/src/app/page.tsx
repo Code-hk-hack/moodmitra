@@ -41,7 +41,7 @@ export default function LandingPage() {
           >
             <motion.img 
               layoutId="app-logo"
-              src="/logo%20copy.png" 
+              src="/logo.png" 
               alt="MoodMitra Logo" 
               className="w-64 h-64 md:w-96 md:h-96 object-contain drop-shadow-2xl" 
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
@@ -56,7 +56,7 @@ export default function LandingPage() {
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
             <motion.img 
               layoutId="app-logo"
-              src="/logo%20copy.png" 
+              src="/logo.png" 
               alt="MoodMitra Logo" 
               onClick={(e) => { e.stopPropagation(); setIsLogoExpanded(true); }}
               className="w-10 h-10 object-contain cursor-zoom-in brightness-90" 
@@ -148,11 +148,11 @@ export default function LandingPage() {
           {/* Aesthetic Background Blob */}
           <div className="absolute inset-0 bg-[#F2B591]/20 rounded-full blur-[80px]"></div>
           
-          <div className="relative w-full max-w-lg aspect-square overflow-hidden flex items-end justify-center">
+          <div className="relative w-full max-w-lg aspect-square overflow-hidden flex items-center justify-center p-4">
             <img 
-              src="/mahiru_happy.png" 
-              alt="Mahiru" 
-              className="relative z-10 w-[95%] h-auto object-contain drop-shadow-[0_20px_40px_rgba(233,155,119,0.3)] brightness-95"
+              src="/logo.png" 
+              alt="MoodMitra Official Logo" 
+              className="relative z-10 w-[90%] max-w-[440px] h-auto object-contain drop-shadow-[0_20px_50px_rgba(233,155,119,0.4)]"
             />
             {/* Decorative Floating Badges */}
             <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} className="absolute top-10 left-0 bg-white/90 backdrop-blur-xl px-5 py-3 rounded-2xl border border-[#E99B77]/20 shadow-[0_10px_30px_rgba(0,0,0,0.05)] z-20">
@@ -410,7 +410,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-6 text-center md:text-left">
             <div className="flex items-center space-x-2 text-[#4A3B32] font-serif font-bold text-xl">
-              <img src="/logo%20copy.png" alt="MoodMitra Logo" className="w-8 h-8 object-contain brightness-90" />
+              <img src="/logo.png" alt="MoodMitra Logo" className="w-8 h-8 object-contain brightness-90" />
               <span>MoodMitra</span>
             </div>
             <div className="flex flex-wrap justify-center gap-6 font-medium">
