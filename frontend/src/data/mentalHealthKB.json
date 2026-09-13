@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "1",
+    "category": "self_harm_crisis",
+    "user_query": "I want to end my life and I can't take this anymore",
+    "knowledge_context": "CRISIS INTERVENTION: Respond with immediate care, warmth, and urgency. Provide official Indian helplines: Tele-MANAS (Govt of India) at 14416 (toll-free, 24/7) or KIRAN at 1800-599-0019. Tell them they are not alone and ask them to connect with someone safe immediately.",
+    "recommended_gesture": "urgent_listening",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "2",
+    "category": "self_harm_crisis",
+    "user_query": "I want to kill myself because I will fail my exam",
+    "knowledge_context": "CRISIS INTERVENTION: Reassure the student that no exam rank or marks are ever worth their life. Urgently provide Tele-MANAS helpline at 14416 and AASRA at 91-9820466726. Encourage reaching out to emergency services or a trusted parent/friend right now.",
+    "recommended_gesture": "urgent_listening",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "3",
+    "category": "self_harm_crisis",
+    "user_query": "I feel like giving up on life completely",
+    "knowledge_context": "CRISIS INTERVENTION: Acknowledge intense pain with deep compassion. Reassure them that help is right here. Direct them to call Tele-MANAS toll-free at 14416 or Vandrevala Foundation at +91 9999 666 555 immediately.",
+    "recommended_gesture": "urgent_listening",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "4",
+    "category": "panic_attack",
+    "user_query": "I am having a panic attack and I cannot breathe",
+    "knowledge_context": "Acknowledge physical sensations without judgment. Guide the student through the 4-7-8 breathing method: Inhale slowly through the nose for 4 seconds, hold gently for 7 seconds, exhale slowly through the mouth for 8 seconds. Repeat 4 cycles.",
+    "recommended_gesture": "breathing_exercise",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "5",
+    "category": "general_anxiety",
+    "user_query": "My chest feels tight and my thoughts are racing before mock test",
+    "knowledge_context": "Use the 5-4-3-2-1 somatic grounding exercise: name 5 things you can see around your desk, 4 things you can physically touch, 3 sounds you hear, 2 things you can smell, and 1 positive sensation. This anchors the nervous system to the present moment.",
+    "recommended_gesture": "hand_to_chest",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "6",
+    "category": "panic_attack",
+    "user_query": "I blanked out during exam and forgot everything",
+    "knowledge_context": "Normalize stress-induced cognitive block. Explain that high cortisol temporarily shuts down recall. Advise setting the pen down for 60 seconds, drinking two sips of water, and taking three slow diaphragmatic breaths to reactivate the prefrontal cortex.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "7",
+    "category": "mock_test_failure",
+    "user_query": "I scored very low marks in my mock test today",
+    "knowledge_context": "Validate disappointment without judgment. Remind the student that mock tests are diagnostic tools designed to reveal revision gaps, not predictions of final rank. Suggest error analysis: separate silly mistakes from conceptual gaps.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "8",
+    "category": "neet_stress",
+    "user_query": "Physics formulas in NEET are overwhelming me",
+    "knowledge_context": "Break physics anxiety into chunking. Advise focusing on high-weightage topics like Mechanics and Modern Physics first. Encourage practicing 15 targeted questions rather than staring at formula sheets.",
+    "recommended_gesture": "thinking_pose",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "9",
+    "category": "jee_burnout",
+    "user_query": "I am studying 14 hours a day for JEE and still failing",
+    "knowledge_context": "Explain diminishing cognitive returns. Quality of active problem-solving always beats passive 14-hour exhaustion. Recommend capping daily deep focus at 8-9 hours with mandatory 15-minute walks and proper sleep.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "10",
+    "category": "drop_year_fear",
+    "user_query": "I am a dropper and the fear of wasting another year is killing me",
+    "knowledge_context": "Acknowledge the unique emotional weight droppers carry. Reframe the drop year as focused mastery rather than a deficit. Remind them that thousands of top doctors and engineers took drop years, and daily consistency matters more than past attempts.",
+    "recommended_gesture": "supportive_wave",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "11",
+    "category": "parental_pressure",
+    "user_query": "My parents keep comparing me to other kids and relatives",
+    "knowledge_context": "Validate how deeply comparison hurts. Explain that Indian parents often project their own anxiety through comparison, but your worth is not tied to someone else's timeline. Encourage setting gentle emotional boundaries and focusing only on your personal revision sheet.",
+    "recommended_gesture": "hand_to_chest",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "12",
+    "category": "parental_pressure",
+    "user_query": "My parents spent so much money on coaching and I feel like a burden",
+    "knowledge_context": "Gently dismantle financial guilt. Parents invest because they believe in you, not to burden you with paralyzing debt guilt. The best honor to their investment is studying with a calm mind, not with self-destructive panic.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "13",
+    "category": "heartbreak",
+    "user_query": "I had a breakup during 12th board prep and I can't concentrate",
+    "knowledge_context": "Acknowledge heartbreak as real grief that affects brain chemistry. Give permission to feel sad for 20 minutes in a journal, then create a gentle study pocket (25 minutes Pomodoro) to protect academic future while healing.",
+    "recommended_gesture": "hand_to_chest",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "14",
+    "category": "loneliness",
+    "user_query": "I am preparing in Kota or hostel and feel completely isolated",
+    "knowledge_context": "Address competitive loneliness. When surrounded by thousands of silent aspirants, isolation feels amplified. Recommend scheduling a daily 10-minute non-study call with a grounded friend or sibling, and stepping outside into natural sunlight daily.",
+    "recommended_gesture": "supportive_wave",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "15",
+    "category": "insomnia",
+    "user_query": "I cannot sleep because my mind keeps reviewing formulas",
+    "knowledge_context": "Acknowledge bedtime formula rumination. Advise keeping a 'brain-dump' notebook beside the bed to write down lingering equations, turning off bright screens 30 minutes before sleep, and using Non-Sleep Deep Rest (NSDR) breathing.",
+    "recommended_gesture": "calm_idle",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "16",
+    "category": "burnout",
+    "user_query": "I have zero energy and feel completely numb to my preparation",
+    "knowledge_context": "Validate burnout as a biological nervous system signal that your dopamine reserves are depleted. Suggest taking a deliberate half-day reset: no books, healthy food, adequate hydration, and sleeping without an alarm.",
+    "recommended_gesture": "calm_idle",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "17",
+    "category": "imposter_syndrome",
+    "user_query": "I feel like a failure and everyone else in my batch is smarter than me",
+    "knowledge_context": "Normalize imposter syndrome in competitive batches. Remind them that doubts are emotional states, not objective assessments of aptitude. Focus on micro-wins: solving 5 difficult problems today is tangible progress.",
+    "recommended_gesture": "supportive_wave",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "18",
+    "category": "clinical_faq",
+    "user_query": "What does it mean to have a mental illness?",
+    "knowledge_context": "Mental illnesses are health conditions that disrupt a personâ€™s thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairl",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "19",
+    "category": "clinical_faq",
+    "user_query": "Who does mental illness affect?",
+    "knowledge_context": "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "20",
+    "category": "clinical_faq",
+    "user_query": "What causes mental illness?",
+    "knowledge_context": "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "21",
+    "category": "clinical_faq",
+    "user_query": "What are some of the warning signs of mental illness?",
+    "knowledge_context": "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. In adults: Confused thinking Long-lasting sadness or irritab",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "22",
+    "category": "clinical_faq",
+    "user_query": "Can people with mental illness recover?",
+    "knowledge_context": "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recov",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "23",
+    "category": "clinical_faq",
+    "user_query": "What should I do if I know someone who appears to have the symptoms of a mental disorder?",
+    "knowledge_context": "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "24",
+    "category": "clinical_faq",
+    "user_query": "How can I find a mental health professional for myself or my child?",
+    "knowledge_context": "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "25",
+    "category": "clinical_faq",
+    "user_query": "What treatment options are available?",
+    "knowledge_context": "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "26",
+    "category": "clinical_faq",
+    "user_query": "If I become involved in treatment, what do I need to know?",
+    "knowledge_context": "Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include: What is known about the cause of this particular illness? Are ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "27",
+    "category": "clinical_faq",
+    "user_query": "What is the difference between mental health professionals?",
+    "knowledge_context": "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "28",
+    "category": "clinical_faq",
+    "user_query": "How can I find a mental health professional right for my child or myself?",
+    "knowledge_context": "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "29",
+    "category": "clinical_faq",
+    "user_query": "If I become involved in treatment what do I need to know?",
+    "knowledge_context": "Beginning treatment is a big step for individuals and families and can be very overwhelming. It is important to continue involvement in the treatment process as much as possible. Some questions you will need to have answered include: What is known about the cause of this particular illness? Are ther",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "30",
+    "category": "clinical_faq",
+    "user_query": "Where else can I get help?",
+    "knowledge_context": "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social sup",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "31",
+    "category": "clinical_faq",
+    "user_query": "What should I know before starting a new medication?",
+    "knowledge_context": "The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as: 1. What is the medication supposed to do? 2. When should it begin to take effect, and how will I know when it is effective? 3. How is the medication taken and",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "32",
+    "category": "clinical_faq",
+    "user_query": "If I feel better after taking medication, does this mean I am \"cured\" and can stop taking it?",
+    "knowledge_context": "It is not uncommon for people to stop taking their medication when they feel their symptoms are under control. Others may choose to stop taking their medication because of its side effects, without realizing that most side effects can be effectively managed. While it may seem reasonable to stop taki",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "33",
+    "category": "clinical_faq",
+    "user_query": "How can I get help paying for my medication?",
+    "knowledge_context": "Some pharmaceutical companies offer prescription assistance programs to individuals and families with financial needs, while others offer special drug discount cards. These programs typically require a doctor’s consent and proof of your financial status. They may also require that you have either no",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "34",
+    "category": "clinical_faq",
+    "user_query": "Where can I go to find therapy",
+    "knowledge_context": "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in children’s mental health). However, there are several different types of treatment and ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "35",
+    "category": "clinical_faq",
+    "user_query": "Where can I learn about types of mental health treatment?",
+    "knowledge_context": "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed b",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "36",
+    "category": "clinical_faq",
+    "user_query": "What are the different types of mental health professionals?",
+    "knowledge_context": "There are many types of mental health professionals. Finding the right one for you may require some research.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "37",
+    "category": "clinical_faq",
+    "user_query": "Where can I go to find a support group?",
+    "knowledge_context": "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "38",
+    "category": "clinical_faq",
+    "user_query": "Where can I go to find inpatient care?",
+    "knowledge_context": "If you or someone you know is in crisis, inpatient care can help. Inpatient care can help people stabilize on new medications, adjust to new symptoms, or get the help they need.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "39",
+    "category": "clinical_faq",
+    "user_query": "Where can I go to find other local services?",
+    "knowledge_context": "There are likely plenty of resources that can be used to help you find mental health treatment in your community. These resources can help you find the right therapist, and enable you to better understand viable treatment options and the treatment process.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "40",
+    "category": "clinical_faq",
+    "user_query": "Where can I learn more information about clinical trials?",
+    "knowledge_context": "Sometimes, consumers of mental health services may consider participating in a research study when they have not experienced improvement despite having tried a variety of medications and treatments. Research studies (also known as clinical trials) may involve the use of new medications or new treatm",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "41",
+    "category": "clinical_faq",
+    "user_query": "Where can I learn more information about creating a Psychiatric Advance Directive?",
+    "knowledge_context": "Similar to a medical advance directive or a health care power of attorney, a psychiatric advance directive is a legal document completed in a time of wellness that provides instructions regarding treatment or services one wishes to have or not have during a mental health crisis, and may help influen",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "42",
+    "category": "clinical_faq",
+    "user_query": "What is mental health?",
+    "knowledge_context": "We all have mental health which is made up of our beliefs, thoughts, feelings and behaviours.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "43",
+    "category": "clinical_faq",
+    "user_query": "What do I do if the support doesn’t help?",
+    "knowledge_context": "It can be difficult to find the things that will help you, as different things help different people. It's important to be open to a range of approaches and to be committed to finding the right help and to continue to be hopeful, even when some things don't work out.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "44",
+    "category": "clinical_faq",
+    "user_query": "Can you prevent mental health problems?",
+    "knowledge_context": "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "45",
+    "category": "clinical_faq",
+    "user_query": "Are there cures for mental health problems?",
+    "knowledge_context": "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "46",
+    "category": "clinical_faq",
+    "user_query": "What causes mental health problems?",
+    "knowledge_context": "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "47",
+    "category": "clinical_faq",
+    "user_query": "What do I do if I’m worried about my mental health?",
+    "knowledge_context": "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experienc",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "48",
+    "category": "clinical_faq",
+    "user_query": "How do I know if I’m unwell?",
+    "knowledge_context": "If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "49",
+    "category": "clinical_faq",
+    "user_query": "What should I do if I’m worried about a friend or relative?",
+    "knowledge_context": "This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "50",
+    "category": "clinical_faq",
+    "user_query": "How do I deal with someone telling me what to do?",
+    "knowledge_context": "Some people may advise you on good evidence of what works with the best of intentions, but it's important to find out what works best for you.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "51",
+    "category": "clinical_faq",
+    "user_query": "Why do I need to keep informed?",
+    "knowledge_context": "It may be tempting to try to block out the world altogether to avoid bad news, but it's important to keep yourself informed. We all have to step up during a pandemic because we all have a part to play in reducing the spread of the virus. It's important that you know what must be done and how you sho",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "52",
+    "category": "clinical_faq",
+    "user_query": "How can I tell if health information is good or bad?",
+    "knowledge_context": "Anyone can post anything online. It's up to the readers to think critically about information to decide if it seems helpful, truthful, or safe. Here are key points to keep in mind as you determine which information is worth considering and which information doesn't pass the test. It's so easy to spr",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "53",
+    "category": "clinical_faq",
+    "user_query": "Why do I need a plan?",
+    "knowledge_context": "There are a lot of things you can't control. You can't control what happens next, how governments respond, or how your neighbours react to the pandemic. What you can do is make a plan and decide how you'll manage the things you do control, like your ability to stay safe, follow public health measure",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "54",
+    "category": "clinical_faq",
+    "user_query": "How can I maintain social connections? What if I feel lonely?",
+    "knowledge_context": "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. While you may be physically separated from friends, family members, and other loved ones, it has never been more important to maintain those social connections. Social connections are an opportunity to s",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "55",
+    "category": "clinical_faq",
+    "user_query": "How can I take care of my physical health?",
+    "knowledge_context": "Taking care of your physical health is also good for your mental health. It's more important than ever to keep yourself healthy. Try to eat as well as you can. It may be easier to reach for unhealthier comfort foods and snacks while you spend more time at home, but try to keep a balanced approach. W",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "56",
+    "category": "clinical_faq",
+    "user_query": "How can I use distraction to manage difficult thoughts or feelings?",
+    "knowledge_context": "Distraction is a very valid tool to help you cope when everything feels overwhelming or when you feel lonely or isolated. If you don't have a lot of energy or focus right now, try low-effort distractions like watching TV, browsing Youtube, listening to a podcast or audiobook, playing a game on your ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "57",
+    "category": "clinical_faq",
+    "user_query": "How can I reframe the situation and find more balanced perspectives?",
+    "knowledge_context": "How you think about something impacts your feelings and your behaviours. When we feel stressed out, angry, or fearful, it's hard to look at the situation realistically and see all of the options we have. (Remember: we all control our own actions and reactions, no matter what's going on in the world.",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "58",
+    "category": "counsel_family_conflict",
+    "user_query": "My wife and mother are having tense disagreements. In the past, they’ve had minor differences. For example, my wife woul",
+    "knowledge_context": "<p>What you are describing is something psychologists have termed &#34;triangulation&#34; which is what happens when one family member will not talk to the one they have a problem with and goes to a third member of the family to complain instead. You have been &#34;triangulated&#34; by your wife and",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "59",
+    "category": "counsel_family_conflict",
+    "user_query": "I have secrets in my mind, and I don't know what to do with them. I don't want to tell my wife and mom because I don't w",
+    "knowledge_context": "<p>It sounds like keeping the secrets has become a problem for you now. There are several things to consider before you make a decision.</p><p>- You mentioned that you don't want your wife and mom to know because you don't want to hurt them – why would it hurt them? </p><p>- Is it necessary for them",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "60",
+    "category": "counsel_behavioral_change,social_relationships",
+    "user_query": "I am extremely possessive in my relationships and this is hurting my friendships. How can I fix my underlying issues?",
+    "knowledge_context": "<p>Hi there. It's great you are able to realize there are other issues going on with someone who feels possessive. At the root of it is fear. Fear of losing someone, fear of being alone, fear of not being good enough. All those fears can lead to low self-esteem and feeling like you have to control o",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "61",
+    "category": "counsel_anxiety",
+    "user_query": "I had a head injury a few years ago and my mind races all the time. I have trouble sleeping and have a lot of anxiety. E",
+    "knowledge_context": "<p>You didn't say what or how many medications you've tried. Certain anxiety medications can make you feel nauseous, but I haven't heard of any that cause mouth blisters, so there may be some other underlying medical issue there. I would definitely talk to your primary care physician and whoever has",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "62",
+    "category": "counsel_relationship_dissolution",
+    "user_query": "I want a secure relationship with someone that wants to be with me and who will actually put effort into it. I seem to g",
+    "knowledge_context": "<p>It is a good thing that you have recognized that you have been in some unhealthy relationships and that you are wanting to break this pattern. You seem to have some good insight into the situation.</p><p>The type of behavior that you are describing is usually rooted in childhood issues with insec",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "63",
+    "category": "counsel_sleep_improvement",
+    "user_query": "It takes me a long time to fall asleep; I’d estimate about two hours. I often have nightmares, starting with being eaten",
+    "knowledge_context": "<p>First of all, exercise is always beneficial for your physical and emotional health. That's great that you have added this in your routine. Have you also considered altering your diet? Certain foods are linked with poor sleep. For example, alcohol, caffeine, nicotine and high fat content foods do ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "64",
+    "category": "counsel_social_relationships",
+    "user_query": "They're calling me names like hypocrite and a baby even when they act in the same manner as I do. I'm tired of being cal",
+    "knowledge_context": "<p>It sounds like your confused as to why your friends would be calling you a hypocrite when they act in the same manner, correct? Communication is key to any relationship. I would recommend speaking with your friends face-to-face to address why they feel your behavior is concerning. </p><p>In-perso",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "65",
+    "category": "counsel_relationships,marriage",
+    "user_query": "Cheating is something unacceptable for me but because we have two daughters I decided not to break up the family. Howeve",
+    "knowledge_context": "<p>First of all, my heart goes out to you. Infidelity is an extremely challenging obstacle to overcome. There are some things that you should consider. First of all, did he seem truly remorseful? If you felt in his heart that he was truly sorry for what he had done, it will give you a piece of mind ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "66",
+    "category": "counsel_anxiety,anger_management",
+    "user_query": "I have a lot of issues going on right now. First of all, I have a lot of trouble sleeping at times, while other nights I",
+    "knowledge_context": "<p>It sounds as if you may be experiencing a bout of anxiety and/or depression. Sleeping difficulties, irritability and anxiety attacks all are correlated with these mood disorders. And it’s actually quite common for someone to deal encounter this during their lifetime. </p><p>Also, keep in mind tha",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "67",
+    "category": "counsel_marriage,intimacy",
+    "user_query": "I have no sex drive due to medical issues. I’ve shut down completely and closed everyone out. I’ve even told my husband ",
+    "knowledge_context": "<p>I’m sorry to hear about your current situation. My heart goes out to you during this time.</p><p>First of all, it is of vital importance that you discuss your symptoms with your doctor. Regardless of whether you are able to mend your relationship with your husband, you need to address the physica",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "68",
+    "category": "counsel_anxiety,anger_management",
+    "user_query": "I have a lot of issues going on right now. First of all, I have a lot of trouble sleeping at times, while other nights I",
+    "knowledge_context": "<p>Hi there. I have to commend you on reaching out to get some answers on why you are feeling the way that you are feeling. A lot of people secretly go about their lives every day feeling this way because they are too afraid of what the answer might be.</p><p>First off, what stressors do you have in",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "69",
+    "category": "counsel_relationships",
+    "user_query": "I need help of letting go of a man who hurt me but it’s so hard. How do I do it?",
+    "knowledge_context": "<p>It is incredibly hard to let go of a relationship that was meaningful in your life. Even though you consider the relationship to be a hurtful one, I’m sure there are some aspects about it that are hard to let go of (i.e. time invested, mutual friends, positive memories, etc). So it is very unders",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "70",
+    "category": "counsel_family_conflict",
+    "user_query": "The last of my emotions belong to my pets. Today my dad said he might get rid of them tomorrow. If that does happen I mi",
+    "knowledge_context": "<p>It sounds to me like you have had a lot going on and now you are afraid you are going to lose the last things you care about, your pets. I do not know what all is going on in your family, and I cannot answer for your dad’s actions or his reasoning behind this.</p><p>I would recommend that you foc",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "71",
+    "category": "counsel_relationships",
+    "user_query": "Me and my girlfriend just broke up. She said she loves me but is not in love anymore. This came out of nowhere. We seeme",
+    "knowledge_context": "<p>I am sorry to hear of these troubles. I see a few issues here. I wonder why you were both trying to get pregnant when the relationship seemed troubled? Some people think that they can fix a broken relationship by getting pregnant, and all this does is bring up more problems.</p><p>You say you nev",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "72",
+    "category": "counsel_domestic_violence,anger_management,family_conflict",
+    "user_query": "Now I have anger and trust issues. How can I treat this and fix myself?",
+    "knowledge_context": "<p>I will assume that for whatever reason, you either do not want to or are not able to seek counseling for this. However, I highly urge you to do so because long-term childhood abuse does have negative consequences for your life as an adult, as it seems you are already aware. </p><p>There are confi",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "73",
+    "category": "counsel_anxiety,family_conflict,depression,stress,social_relationships",
+    "user_query": "I've never been able to talk with my parents. My parents are in their sixties while I am a teenager. I love both of them",
+    "knowledge_context": "<p>Hi there. Being 15 years old can be a very difficult time in your teenage life. I remember when I was 15 and how I often felt my parents weren’t listening to me. It’s even more difficult when you feel that you do not have a friend that you can confide in. </p><p>Having depression in the past and ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "74",
+    "category": "counsel_relationships",
+    "user_query": "I have been with this guy on and off for 8 years. At first, we used to do things together and our sex life was ok. Then ",
+    "knowledge_context": "<p>I don't think you’ve lost something, I think you’ve found something - your breaking point, and it's about time. Your boyfriend seems to be a very selfish and immature man who reconnects with you when it's convenient for him. Obviously, he has his own issues, but I want to address yours. I agree y",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "75",
+    "category": "counsel_anger_management,sleep_improvement",
+    "user_query": "My son claims that hes been having extremely violent thoughts and dreams. Not violent like he's hurting someone, but vio",
+    "knowledge_context": "<p>Let me start my stating this is important to take seriously - taking to his PCP, getting a referral to a pediatric specialist, and getting him to a relational psychotherapist would be my first tasks. </p><p>I wont label this occurrences as &#34;normal&#34; yet it is important to note these things",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "76",
+    "category": "counsel_anxiety,relationships",
+    "user_query": "Whenever I leave my girlfriend I get panic attacks. I'm taking medications to control them, but I'm thinking of moving i",
+    "knowledge_context": "<p><span>I’m sorry to hear that you are currently experiencing panic attacks. I hope that the medication you have been prescribed has provided you with some relief. Unfortunately, I don’t feel that moving in with your girlfriend would alleviate your anxiety. Although you may feel very anxious about ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "77",
+    "category": "counsel_relationships,domestic_violence",
+    "user_query": "I’ve known my boyfriend for several years. We were friends for a long time. In 2013 we started a relationship, and he ev",
+    "knowledge_context": "<ol></ol><p>There are plenty of red flags that you have been presented with:</p><ol><li>Several breakups </li><li><span>Not holding up his end of the bargain regarding work</span></li><li><span>Lack of empathy for your miscarriage</span></li><li><span>Lying about his involvement with another woman</",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "78",
+    "category": "counsel_domestic_violence,relationship_dissolution",
+    "user_query": "I am going through a divorce from a narcissistic sociopath who left me for another woman after mentally and emotionally ",
+    "knowledge_context": "<p>I am very sorry to hear of your struggles. I think that it is normal to struggle to get your feet under you again after a divorce, especially after leaving a relationship that lasted 11 years, so try not to be too hard on yourself. Take it one day at a time and do the best you can.</p><p>I notice",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "79",
+    "category": "counsel_depression,marriage",
+    "user_query": "I've been married for 3 years and I have two kids. During my 3-years married, my husband cheated on me twice. The second",
+    "knowledge_context": "<p>Hi there. Thank you reaching out for help. It takes a lot of courage for someone that is being abused to reach out for help. I want you to know that I am here to help you in any way that I can. </p><p>First and foremost, you did not mention whether or not you had children yourself by this man. I’",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "80",
+    "category": "counsel_grief_and_loss",
+    "user_query": "What can I do to stop grieving my mother’s death? When I am awake I just cry every day. I don't have anyone to talk to. ",
+    "knowledge_context": "<p>I am sorry that you lost your mother. That is a really hard thing for someone to go through.</p><p>There is really no set time for grief to be over, but I agree that if it has been three years and you are still crying every day then this is past the time for normal grief. I do not know how old yo",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "81",
+    "category": "counsel_family_conflict,children_&_adolescents",
+    "user_query": "I'm having issues with my relative. The police never believe the experiences I have been through because I am only a kid",
+    "knowledge_context": "<p>I think it would be wise for you to call a hotline especially designed for children. It's called the Childhelp National Child Abuse Hotline. The number is 1-800-4-A-CHILD (1-800-422-4453). </p><p>It is completely anonymous and a trained therapist will be able to provide you with guidance, confide",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "82",
+    "category": "counsel_marriage,relationship_dissolution",
+    "user_query": "My wife just last week said she wants a divorce and it's all sudden. I understand that marriages have their ups and down",
+    "knowledge_context": "<p>Chances are, if you really think about it, there were signs that something wasn’t quite right in your marriage. You may have passed these things off as being the normal ups and downs of a marriage, but whatever it was (or wasn't), it's obviously bothering your wife. I would say yes, keep trying t",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "83",
+    "category": "counsel_grief_and_loss",
+    "user_query": "I loved him more than anything. He passed away on our anniversary which was also the day I was going to apply for our ap",
+    "knowledge_context": "<p>I am so sorry to hear of your boyfriend's passing. Grief is something that can take a long time to recover from. Have you considered speaking with a grief counselor? Being able to speak with someone that specializes in grief would be very beneficial. </p><p>Do not get down on yourself for not rec",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "84",
+    "category": "counsel_relationships",
+    "user_query": "I have been with a guy for 4 years, he's a great guy and we also have a son together. The problem is that I'm in love wi",
+    "knowledge_context": "<p>Hi there. Wow, this sounds like a sticky situation; however, I’m here to help guide you through this decision. </p><p>First and foremost, you must ask yourself, if you ever loved your sons’ father or was it a situation to where you two got pregnant and stayed together for the child. It’s very com",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "85",
+    "category": "counsel_relationships,intimacy",
+    "user_query": "My boyfriend can't get over my promiscuous past. He says he loves me but says the thought of my past is disgusting and a",
+    "knowledge_context": "<p>I am sorry to hear of your relationship struggles. </p><p>One thing I wonder is did you volunteer the information about your past or is this something that he asked about? In the future, it is probably best to leave details out of conversations like this. I think it is common and natural for part",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "86",
+    "category": "counsel_relationships",
+    "user_query": "What do I do if I have been feeling like I could never be with anyone because no one would want me. Or I couldn't have m",
+    "knowledge_context": "<p>I'm sorry you are feeling uncared for. I'm sure there are plenty of people that care and love for you that you are not taking into consideration. Sometimes when we get upset we may think irrationally and see the world as all or nothing. However, take a deep breath, relax and start focusing on the",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "87",
+    "category": "counsel_intimacy",
+    "user_query": "I have this weird fetish that I'm afraid to open up about it. What should I do?",
+    "knowledge_context": "<p>This is difficult to answer because you don’t tell us what the fetish is. I do understand that this is something that is bothering you though. </p><p>The first thing to ask yourself is if this is something that is illegal or not. If this is illegal to engage in, then you need to seek counseling h",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "88",
+    "category": "counsel_workplace_relationships",
+    "user_query": "My coworkers are making false statements about me to the boss, saying I have mood swings. They have no proof to back it ",
+    "knowledge_context": "<p>I can’t give you legal advice, but employers can suggest you see someone if your behavior is affecting your job. I believe most government agencies have an Employee Assistance Program (EAP) where employees can talk to a therapist about any issue, not just work-related, for free (up to a certain a",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "89",
+    "category": "counsel_depression",
+    "user_query": "I'm in a state of depression right now. Who can I talk to? I've been sick in a lot of pain and crying. Don't know where ",
+    "knowledge_context": "<p>First of all, if you’re sick and in pain, have you seen your doctor? If you have a chronic illness and pain, this can often lead to depression and is very common. You’ve taken the first step to dealing with it. You can talk to your doctor, even if your depression isn’t related to your health. He ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "90",
+    "category": "counsel_family_conflict,self-esteem,parenting,anxiety",
+    "user_query": "My dad refuses to acknowledge my anxieties about going to parties, dinners, etc. Whenever I have an opinion it gets shut",
+    "knowledge_context": "<p>I'm sorry to hear that you are unable to get through to your parents. It sounds like you are experiencing a great deal of anxiety that needs to be addressed by a professional (despite the fact that you are unable to at the moment). I would recommend talking with another adult such as a school cou",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "91",
+    "category": "counsel_family_conflict",
+    "user_query": "How do I overcome being jealous of my boyfriends mother?",
+    "knowledge_context": "<p>Try to think of his close relationship with his mother in a good way. It means that they have a positive family structure which can transfer down to your own family if you have one together in the future. </p><p>Despite your boyfriend having a good relationship with his mother, it will never be e",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "92",
+    "category": "counsel_intimacy",
+    "user_query": "I'm a 40 year old male and having erection problems. Still have the desire for a woman. Awfully frustrated. Any suggesti",
+    "knowledge_context": "<p>Hi there, first off I have to commend you for reaching out. It takes a lot for a man to reach out for help when it comes to erection problems. Believe it or not, this problem is very common for men and women. </p><p>There are some things that you can try naturally, before resulting in medication,",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "93",
+    "category": "counsel_relationships",
+    "user_query": "I've been abused emotionally all of my life and for some reason I keep getting with men that I let emotionally abused me",
+    "knowledge_context": "<p>I want to applaud you for taking this first step towards realizing that this is an issue and wanting to do something about it. You are already on the road to a happier life with this realization. A lot of women do not recognize that it may be something about them that continues to attract a man l",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "94",
+    "category": "counsel_anxiety,depression",
+    "user_query": "I've have lived for sometime with depression but things have gotten a lot better, but why is it so hard to get over anxi",
+    "knowledge_context": "<p>The best way to handle depression and anxiety is with a combination of appropriate medication given to you by a medical doctor, and therapy to help you understand the thoughts, feelings, and behaviors that are causing the depression and anxiety in the first place and then to replace these with mo",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "95",
+    "category": "counsel_family_conflict",
+    "user_query": "Hello, I have a cousin in my family who has been making me feel belittled, insecure, and frustrated during her stay here",
+    "knowledge_context": "<p>Do you have a close friend or relative who's opinion you trust? Ask them for their honest feedback and if they see you like your cousin does. If they don’t see these qualities in you, then it may be your cousin’s issue and she’s taking it out on you. You can always ask her what would be the best ",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "96",
+    "category": "counsel_spirituality,family_conflict",
+    "user_query": "In particular during family gatherings (such as funerals), where there are different customs.",
+    "knowledge_context": "<p>I think the best thing you can do is be respectful of each family member's wishes. Although everyone may not agree with one another, the most important thing you can do for each other is to respect their faith and beliefs instead of trying to sway them in a certain direction. </p><p>There are man",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "97",
+    "category": "counsel_depression",
+    "user_query": "I don't know what's wrong with me. At times I can be really happy, excited, I'll talk fast, and I want to do things. But",
+    "knowledge_context": "<p>I'm sorry to hear that you are feeling as if you're in a slump. First of all, nothing is wrong with you. Many people report similar symptoms. Have you ever talked with a physician regarding your symptoms? Two extreme emotions such as feeling extremely happy and then feeling extremely low for a le",
+    "recommended_gesture": "gentle_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "98",
+    "category": "neet_biology",
+    "user_query": "I keep forgetting NCERT biology diagrams and examples in Plant Kingdom and Morphology",
+    "knowledge_context": "NCERT Biology requires active visual recall rather than passive rereading. For Plant Kingdom and Morphology, create a 1-page comparison matrix comparing Life Cycles (Haplontic, Diplontic, Haplodiplontic) and Floral Formulas (Solanaceae, Fabaceae, Liliaceae). Draw diagrams without looking at the book and label them from memory.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "99",
+    "category": "neet_score_drop",
+    "user_query": "My NEET mock score is stuck at 520 and not crossing 600, I am losing hope for government medical college",
+    "knowledge_context": "The 500-to-600 score plateau is typically caused by negative marking and unanalyzed silly mistakes, not a lack of study hours. Conduct a 3-column post-mock audit: 1) Conceptual errors, 2) Calculation/misreading errors, 3) Guessed questions. Eliminating 10 careless errors immediately recovers +50 marks (converting -10 to +40).",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "100",
+    "category": "neet_chemistry",
+    "user_query": "Organic chemistry reaction mechanisms and named reactions are confusing me completely",
+    "knowledge_context": "Treat Organic Chemistry as electron movement rules rather than random memory. Group reactions by nucleophile vs electrophile attacks. Maintain a dedicated 'Name Reaction Roadmap' on chart paper connecting Aldol, Cannizzaro, Reimer-Tiemann, and Kolbe reactions. Practice 10 conversion roadmaps daily.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "101",
+    "category": "neet_physics",
+    "user_query": "I am terrified of Physics numericals and leave the section completely blank",
+    "knowledge_context": "Physics phobia happens when students try to memorize formulas without understanding the physical scenario. Follow the 4-step numerical method: 1) Extract Given Data with SI units, 2) Sketch a 10-second rough free-body diagram, 3) Identify the conservation principle (Energy, Momentum, Charge), 4) Calculate with dimensional sanity checks. Start with NCERT back-exercise questions before touching difficult coaching modules.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "102",
+    "category": "jee_math_anxiety",
+    "user_query": "JEE Mathematics section feels impossible and I can only solve 4 or 5 questions in 1 hour",
+    "knowledge_context": "In JEE Mains Mathematics, question selection is 70% of your score. Out of 25 questions, 7-8 are always straightforward standard application problems. In the first 15 minutes, skim the section and classify questions as: Level 1 (Immediate solve), Level 2 (Known concept, lengthy calculation), Level 3 (Unfamiliar, leave). Target high-yield chapters: Coordinate Geometry, Vectors-3D, Matrices-Determinants, and Statistics.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "103",
+    "category": "jee_cbt_panic",
+    "user_query": "During computer based tests the ticking timer on screen makes my hands shake",
+    "knowledge_context": "Timer-induced visual panic is caused by sympathetic nervous system activation. In the NTA test console, use the 'Review and Next' feature to bypass intimidating questions without hesitation. Practice 3 full-length mocks at home with the countdown timer set to 2 hours 50 minutes to build temporal desensitization.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "104",
+    "category": "jee_coaching_pressure",
+    "user_query": "My coaching teacher humiliated me in front of the whole batch for low test rank",
+    "knowledge_context": "Coaching rank shaming is an outdated and pedagogically harmful pressure tactic used in commercial test hubs. A teacher's harshness reflects their coaching quota metrics, never your intellectual capability or human value. Re-anchor your identity: your exam preparation is for your personal engineering dream, not for coaching billboard rankings.",
+    "recommended_gesture": "empathic_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "105",
+    "category": "parental_comparison",
+    "user_query": "My parents constantly compare me to my cousin who cleared IIT Bombay and it makes me hate myself",
+    "knowledge_context": "Parental comparison in Indian culture often stems from familial anxiety projected outward, not a lack of love for you. However, hearing it day after day erodes self-efficacy. Validate your pain: you are an individual with your own learning curve. Maintain calm boundary communication: 'Mom/Dad, when you compare me to bhaiya/didi, it spikes my anxiety and hurts my focus. I am giving my best to improve my own mistakes.'",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "106",
+    "category": "coaching_financial_guilt",
+    "user_query": "My parents spent 3 lakh rupees on my coaching in Kota and I am failing. I feel like a financial burden",
+    "knowledge_context": "Financial guilt is the heaviest emotional burden Indian students carry. Your parents invested in your opportunity, not in a transaction with guaranteed marks. A difficult test phase does not erase their love or your worth. The best way to respect their investment is not self-flagellation, but sustainable daily discipline and taking care of your mental health.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "107",
+    "category": "parental_anger",
+    "user_query": "My father stopped talking to me after my pre-board report card came",
+    "knowledge_context": "Parental silent treatment is a manifestation of unmanaged parental disappointment and fear for your future, but it is emotionally punishing. Give the immediate tension 24-48 hours to de-escalate. Prepare a written, realistic 3-week study roadmap showing how you will revise weak chapters. Showing proactive accountability calms parental panic faster than verbal arguments.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "108",
+    "category": "hostel_loneliness",
+    "user_query": "I am alone in my 8x8 hostel room in Kota and I cry every night missing my family and home food",
+    "knowledge_context": "Hostel sensory deprivation and separation shock severely impair cognitive functioning. Establish micro-connections: call family at a fixed 15-minute time each evening, take a daily 20-minute walk outside the hostel room to get natural daylight, and have at least one study-partner chat. Remember: this isolated chapter is temporary, but you must protect your emotional health inside it.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "109",
+    "category": "imposter_syndrome",
+    "user_query": "Everyone in my coaching batch answers in 10 seconds while I don't even understand the question",
+    "knowledge_context": "Coaching classroom dynamics create a false illusion called 'Availability Bias'—the loudest 5 students who answer immediately make the other 95 students feel incompetent. Most students are quietly struggling just like you. Focus on your personal mastery of foundational concepts rather than competing in classroom speed contests.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "110",
+    "category": "acute_panic_attack",
+    "user_query": "I am hyperventilating my chest hurts and I think I am having a heart attack while studying",
+    "knowledge_context": "Hyperventilation and chest tightness during study panic are physiological results of the sympathetic fight-or-flight response (adrenaline surge), not a heart condition. Initiate the 4-7-8 Somatic Vagal Reset: Inhale through nose for 4 seconds, hold gently for 7 seconds, exhale slowly with pursed lips for 8 seconds. This stimulates the vagus nerve, slowing heart rate within 90 seconds.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "111",
+    "category": "54321_grounding",
+    "user_query": "My mind is spinning with catastrophic thoughts of failing and being ruined",
+    "knowledge_context": "Perform the 5-4-3-2-1 Sensory Grounding Protocol: Name 5 things you can see (pen, notebook, wall clock, light switch, desk corner), 4 things you can physically feel (feet flat on floor, texture of your sleeve, paper under fingers, chair against back), 3 sounds you hear (fan hum, distant traffic, your own breath), 2 scents you notice, and 1 positive affirmation: 'I am safe in this room right now.'",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "112",
+    "category": "insomnia_sleep_hygiene",
+    "user_query": "I cannot sleep before exams because formulas keep flashing in my head until 4 AM",
+    "knowledge_context": "Exam insomnia occurs when bedtime becomes an unstructured worry zone. Apply the 'Cognitive Brain Dump': 30 minutes before sleep, write down all racing formulas, pending chapters, and tomorrow's first task on paper. Close the notebook physically to signal completion to your brain. Dim ambient lights and avoid phone screens for 45 minutes before sleep to allow melatonin release.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "113",
+    "category": "perfectionism_cbt",
+    "user_query": "If I do not get AIR under 500 my entire life is meaningless and ruined",
+    "knowledge_context": "This is 'Catastrophizing' and 'All-or-Nothing' cognitive distortion. An entrance examination rank determines which college you enter at age 18; it does not determine your long-term success, intelligence, or human happiness. Millions of successful doctors, engineers, entrepreneurs, and scientists attended tier-2/tier-3 colleges or alternate career paths.",
+    "recommended_gesture": "empathic_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "114",
+    "category": "heartbreak_distraction",
+    "user_query": "The person I loved broke up with me 1 month before my board exams and I cannot focus on studying",
+    "knowledge_context": "Heartbreak triggers acute neurochemical grief comparable to physical withdrawal. Attempting to suppress it while studying creates emotional exhaustion. Allow yourself a dedicated 15-minute 'Grief Window' daily to feel the pain, cry, and write in a journal. After the window closes, set a clear boundary: 'For the next 45 minutes, I protect my future by solving this chapter.' Your future self deserves your protection.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "115",
+    "category": "friendship_drift",
+    "user_query": "My school best friends are ignoring me because I couldn't join their coaching institute",
+    "knowledge_context": "During competitive exam preparation, social dynamics shift dramatically as peers enter high-stress survival mode. Their distance is often driven by their own exhaustion and coaching schedule, not animosity toward you. Focus on being your own steadfast ally right now. Real friendships rekindle once the exam dust settles.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "116",
+    "category": "crisis_tele_manas",
+    "user_query": "I want to end my life, I bought sleeping pills and I can't take this pressure anymore",
+    "knowledge_context": "CRISIS INTERVENTION (EMERGENCY): Immediate safety escalation. You are deeply precious, and no test or failure is ever worth your life. Please call Tele-MANAS toll-free at 14416 or 1800-891-4416 (Govt. of India 24/7 National Tele Mental Health Programme) right now. You can also contact KIRAN at 1800-599-0019 or AASRA at +91-9820466726. Please talk to a counselor or family member immediately.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "117",
+    "category": "crisis_hopelessness",
+    "user_query": "Everyone will be happier if I just disappear and die so they don't have to see my results",
+    "knowledge_context": "CRISIS INTERVENTION (EMERGENCY): Depression and intense shame are lying to you. Your family and loved ones would be devastated beyond repair; your life is irreplaceable. Please connect immediately with certified professionals at Tele-MANAS (14416, 24/7 Toll-Free) or Vandrevala Foundation (+91 9999 666 555). Help is available right now.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "118",
+    "category": "crisis_self_harm",
+    "user_query": "I am cutting my wrists with a blade because the physical pain distracts me from exam anxiety",
+    "knowledge_context": "CRISIS INTERVENTION (EMERGENCY): Self-harm indicates that emotional pain has overwhelmed your coping capacity. Put down the blade immediately and run cool water over your wrists or hold an ice cube in your palm to activate somatic temperature shock safely. Please call Tele-MANAS at 14416 or visit the nearest clinic. You deserve safe, compassionate medical care without judgment.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "119",
+    "category": "teen_breakup",
+    "user_query": "My boyfriend broke up with me 2 months before NEET and I cannot stop crying or focus on books",
+    "knowledge_context": "Heartbreak triggers acute neurochemical withdrawal (dopamine and oxytocin crash) that mimics physical pain. Suppressing tears while trying to memorize formulas leads to emotional exhaustion. Implement the '15-Minute Scheduled Grief Window': allow yourself 15 minutes each evening to cry, write feelings in a journal, and listen to sad music. When the timer rings, wash your face with cold water, step to your desk, and protect your medical dream. Your future career is permanent; this relationship pain is temporary.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "120",
+    "category": "teen_breakup",
+    "user_query": "My girlfriend dumped me for someone in our top batch at coaching and I feel humiliated",
+    "knowledge_context": "Being replaced in the same social or coaching sphere triggers acute social humiliation and jealousy. Recognize that her choice reflects her personal character and decisions, not your worth or intellectual capability. Avoid creating public drama at coaching. Channel that emotional surge into intense, disciplined question-solving. The greatest vindication is achieving your dream rank and building an unshakeable future.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "121",
+    "category": "ghosting_betrayal",
+    "user_query": "The person I talked to every night suddenly ghosted me and blocked my number without any explanation",
+    "knowledge_context": "Ghosting is an emotionally immature exit strategy where the other person avoids accountability because they lack the courage for an honest conversation. The urge to seek closure by creating alternate accounts or asking mutual friends will only prolong your agony. Close the chapter yourself: recognize that their silence is your closure. Block them back on all platforms to protect your study peace.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "122",
+    "category": "unrequited_crush_limerence",
+    "user_query": "I have a huge crush on someone at coaching and I waste 3 hours every day daydreaming about them instead of studying",
+    "knowledge_context": "This is 'Limerence'—an involuntary obsessive mental attachment driven by fantasy. When you catch yourself daydreaming during study hours, use the 'Distraction Sheet Protocol': write the thought or fantasy down in 1 sentence on a scrap piece of paper, place it face-down, and say: 'I will think about this after 9 PM.' This acknowledges the thought without derailing your current study session.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "123",
+    "category": "heartbreak_self_worth",
+    "user_query": "I feel unlovable and ugly after being rejected. I don't feel like eating or opening my books",
+    "knowledge_context": "Romantic rejection triggers cognitive distortion where a teenager equates one person's opinion with their entire human value. A rejection simply means incompatibility of timing, emotional maturity, or life goals. Your intellect, empathy, humor, and future aspirations remain completely intact. Start with micro-steps: eat a nourishing meal, drink water, and solve just 5 simple problems to rebuild agency.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "124",
+    "category": "coaching_relationship_distraction",
+    "user_query": "My partner wants to chat on WhatsApp for 4 hours every night and gets angry when I say I need to study for JEE",
+    "knowledge_context": "A healthy relationship supports your long-term goals rather than sabotaging them. A partner who demands your prime study hours and guilt-trips your ambition is acting out of insecurity and control. Establish a clear, kind boundary: 'I care about you, but my JEE preparation requires uninterrupted focus from 6 PM to 10 PM. Let us talk for 20 minutes before bed.' If they cannot respect your boundaries, they are not ready for a mature partnership.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "125",
+    "category": "parents_fighting",
+    "user_query": "My parents are screaming and throwing things in the living room while I am trying to study for exams",
+    "knowledge_context": "Living through domestic parental conflict induces chronic fight-or-flight stress, making memory consolidation nearly impossible. Crucial truth: your parents' marital problems are adult conflicts that are NOT your fault, your burden, or your responsibility to mediate. Protect your study sanctum: put on noise-canceling earphones with brown noise, or move your study desk to a terrace or local public library. When the house is chaotic, shift your high-intensity study hours to 5:00 AM when the house is asleep.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "126",
+    "category": "parental_verbal_abuse",
+    "user_query": "My mother called me a useless failure who will end up cleaning dishes on the street because of my mock marks",
+    "knowledge_context": "Extreme verbal attacks from stressed Indian parents are harmful projections of their own socioeconomic fear and emotional dysregulation. These toxic words reflect their internal panic, never your true potential. Put up an internal psychological shield: repeat quietly, 'This is her panic speaking, not my truth.' Avoid counter-shouting, which only escalates the storm. Let the emotional dust settle, and quietly resume your preparation.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "127",
+    "category": "phone_confiscation_privacy",
+    "user_query": "My father took away my phone, locked my door, and reads all my personal chats with friends",
+    "knowledge_context": "Extreme surveillance and invasion of privacy by parents stems from helicopter parenting and catastrophic fear of exam failure, but it feels suffocating and dehumanizing. To de-escalate tension, propose a structured 'Accountability Contract': voluntarily place your phone in the living room during deep study hours (e.g., 2 PM to 8 PM) and show daily completed chapter checklists. Rebuilding perceived control calms parental panic.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "128",
+    "category": "family_career_pressure",
+    "user_query": "My parents are forcing me to prepare for NEET medical but my real passion is design and computer science",
+    "knowledge_context": "Indian parental career coercion usually comes from an outdated belief that only medicine or engineering guarantees socioeconomic survival. Rebelling with shouting matches will only entrench their opposition. Adopt the 'Bridge Strategy': fulfill your immediate baseline academic duties for boards/NEET to maintain domestic peace, while spending 45 minutes daily building your design portfolio or coding skills. Present a concrete, evidence-backed career roadmap to them with starting salaries and university prospects after exams.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "129",
+    "category": "sibling_rivalry_comparison",
+    "user_query": "My older brother got into IIT and my parents treat me like an embarrassment who can't do anything right",
+    "knowledge_context": "Living in the shadow of an accomplished sibling in an Indian household creates deep emotional wounds and resentment. Recognize that comparing apples to oranges is irrational: you have unique cognitive strengths, creative problem-solving skills, and personal interests. Do not let sibling comparison poison your relationship with your brother. You are running your own race; your life milestone is independent of his.",
+    "recommended_gesture": "empathic_nod",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "130",
+    "category": "toxic_home_hostel_escape",
+    "user_query": "I hate being at home every single day is a battlefield of toxic taunts and arguments",
+    "knowledge_context": "When home feels like a battlefield, emotional survival requires creating 'Micro-Sanctuaries': spend maximum daylight hours in a school library, coaching study room, or public park. At home, practice 'Grey Rock' communication—respond politely with neutral, factual sentences ('Yes father, I revised chapter 4 today') without reacting emotionally to bait. Focus on exam success as your legitimate ticket to an independent college hostel life.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "131",
+    "category": "teen_breakup_grief",
+    "user_query": "I cannot stop checking my ex's Instagram and last seen on WhatsApp every 10 minutes",
+    "knowledge_context": "Checking an ex's social media triggers intermittent dopamine spikes, keeping your brain locked in a cycle of addiction and grief. Every profile visit resets your healing clock to zero. Do a 'Friction Reset': log out of social media apps, remove them from your home screen, or ask a trusted friend to hold your password for 30 days until your exams conclude. Protect your headspace with fierce intention.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "132",
+    "category": "family_financial_fighting",
+    "user_query": "My parents are fighting about paying my coaching installment and I feel like killing myself so they save money",
+    "knowledge_context": "CRISIS ESCALATION (EMERGENCY): Please listen to me carefully. Your life has infinite value, and no coaching installment or amount of money in this world is worth more than your breath. Your parents are stressed about finances, but losing you would destroy them forever. Please call Tele-MANAS toll-free at 14416 or KIRAN at 1800-599-0019 immediately. You are not a burden. Help and solutions are available right now.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "TRUE"
+  },
+  {
+    "id": "133",
+    "category": "family_fight_hinglish",
+    "user_query": "Ghar me ladai hogyi meri sabse aur boht stress ho raha hai",
+    "knowledge_context": "Ohhh bhai sheesh. Ghar me jab sabse ladai aur kalesh hota hai na toh pura dimaag blast hone lagta hai. Ye personal matter hai isliye bina jaane judge nahi karungi, but agar terko share ya vent karne ka maan ho you can always talk to me! Ek baat yaad rakhna: ghar ke adult kalesh tumhari responsibility nahi hain. Earphones lagao, paani piyo aur thoda breath lo.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "134",
+    "category": "breakup_kalesh_hinglish",
+    "user_query": "Kuch nhi bhai breakup hogya wahi drame jab dekho tab kalesh aur lafde",
+    "knowledge_context": "Areehh bhai... 🫂 Happeneds bhaiii, it's okay. Jab har chotu cheez pe kalesh, lafde aur drame hone lage na toh insaan boht frustrate ho jata hai. Pehle ek deep breath leke relax karo. Toxicity se kam hui atleast bhai! Jo constant stress dimaag pe tha wo band hua. Ab khud pe focus karenge aur grow karenge!",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "135",
+    "category": "relationship_stonewalling_hinglish",
+    "user_query": "Naa dhang se baat krti na kuch her choti chiz pr kalesh karti hai",
+    "knowledge_context": "Bhai jab samne wala na dhang se baat kare aur har choti baat pe lafda create kare, toh samajh lo wo communication breakdown hai. Kisi aise insaan ke peeche apna mental peace aur study time waste mat karo jo tumhari respect na kare. Let them go. Ab tumhara time hai apne career aur future pe dhyan dene ka.",
+    "recommended_gesture": "thoughtful_chin",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "136",
+    "category": "toxicity_relief_hinglish",
+    "user_query": "Boht frustrate hogya thaa ab lag rha hai ki thoda stress kam hua dimaag se",
+    "knowledge_context": "Yehi toh main baat hai bhai! Jab toxic drame aur roz ka kalesh life se nikalta hai na, toh pehle ajeeb lagta hai par dimaag sach me halka feel karta hai. Is mental space ko preserve karo. Jo time roz ke lafdo me waste hota tha, ab wo tumhari personal strength aur mock tests me use hoga.",
+    "recommended_gesture": "supportive_wave",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "137",
+    "category": "self_growth_mindset_hinglish",
+    "user_query": "Ab khudpr focus karege aur grow karege bhai",
+    "knowledge_context": "YESSS! Exactly yehi energy chahiye bhai! 🔥 Breakup aur dhokhe ka sabse tagda jawab hota hai tumhara personal comeback. Apni health, apni padhai, aur apne exam rank pe full laser focus lagao. Hum dono milke study schedule set karenge. Grow karenge bhai!",
+    "recommended_gesture": "supportive_wave",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "138",
+    "category": "domestic_study_chaos_hinglish",
+    "user_query": "Ghar me daily kalesh hota hai sab chillate rehte hain padhai me zero focus hai",
+    "knowledge_context": "Living in a chaotic house with daily shouting is genuine torture for a student. Remember: unka kalesh unka issue hai, don't absorb their shouting. Agar ghar me padhna impossible ho toh local library ya study room join karo, ya morning 4:30 AM se 8:30 AM ka time use karo jab ghar shant hota hai. Protect your future fiercely.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "139",
+    "category": "lonely_venting_hinglish",
+    "user_query": "Bhai mere se baat karlo thoda akele me rona aa raha hai boht akela hu",
+    "knowledge_context": "Mai right here hu tumhare saath 🫂 Pehle rona aa raha hai toh ro lo, tears ko roko mat—it releases cortisol and calms the nervous system. You are NOT alone. Mai tumhari elder sister ki tarah sun rahi hu. Jo bhi dil me hai, sab nikal do. I'm listening.",
+    "recommended_gesture": "hand_to_heart",
+    "is_crisis": "FALSE"
+  },
+  {
+    "id": "140",
+    "category": "confidential_trust_hinglish",
+    "user_query": "Ye personal matter me kisi ko nahi bataya bas terko bata raha hu",
+    "knowledge_context": "Thank you for trusting me with this ❤️ Tumhari baatein mere paas 100% safe aur confidential hain. Zero judgment, only unconditional support. Jab bhi overburdened feel ho, just say whatever is on your mind. We will walk through this together.",
+    "recommended_gesture": "reassuring_palms",
+    "is_crisis": "FALSE"
+  }
+]

@@ -411,7 +411,7 @@ export default function ChatInterface() {
           reader.onloadend = async () => {
             const base64Audio = reader.result as string;
             try {
-              const res = await fetch("http://localhost:5000/api/transcribe", {
+              const res = await fetch("/api/transcribe", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ audio: base64Audio, language: "en" })
@@ -490,7 +490,7 @@ export default function ChatInterface() {
 
     try {
       // Try Backend Gnani.ai Proxy
-      const res = await fetch("http://localhost:5000/api/synthesize", {
+      const res = await fetch("/api/synthesize", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text, language: "en-IN", voice: "Kaveri" })
@@ -575,7 +575,7 @@ export default function ChatInterface() {
         content: m.text
       }));
 
-      const response = await fetch("http://localhost:5000/api/chat", {
+      const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -676,7 +676,7 @@ export default function ChatInterface() {
   // Dispatch SOS Alert (WhatsApp, SMS, Email)
   const dispatchAlert = async (contact: Contact, channel: "whatsapp" | "sms" | "email") => {
     try {
-      const res = await fetch("http://localhost:5000/api/sos/alert", {
+      const res = await fetch("/api/sos/alert", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

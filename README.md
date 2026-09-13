@@ -3,6 +3,8 @@
 > **Talk. Support. Protect.**  
 > An ultra-low latency, empathetic 3D anime companion and exam mentor (**Avatar: Mahiru**) designed specifically for Indian students preparing for high-stakes competitive exams (**NEET, JEE, Board Exams & College Entrance**).
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCode-hk-hack%2FMood-Mitra&root-directory=frontend&env=GROQ_API_KEY,GEMINI_API_KEY,GNANI_API_KEY&envDescription=API%20Keys%20for%20Groq%20Llama%203.3,%20Gemini%20Director,%20and%20Gnani%20TTS&project-name=mood-mitra)
+
 ---
 
 ## 🌟 Overview & Mission
@@ -48,6 +50,24 @@ Traditional AI chat assistants fail these students because they:
   * Automatically dispatches pre-formatted emergency check-in alerts to the student's configured **Parent and Friend** via WhatsApp (`wa.me`) and SMS (`sms:`).
 
 ---
+
+
+---
+
+## 🌐 1-Click Live Vercel Deployment
+
+Deploy your own live, shareable instance of MoodMitra in ~60 seconds:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCode-hk-hack%2FMood-Mitra&root-directory=frontend&env=GROQ_API_KEY,GEMINI_API_KEY,GNANI_API_KEY&envDescription=API%20Keys%20for%20Groq%20Llama%203.3,%20Gemini%20Director,%20and%20Gnani%20TTS&project-name=mood-mitra)
+
+### Deployment Steps:
+1. Click the **Deploy with Vercel** button above (or import `Code-hk-hack/Mood-Mitra` at [vercel.com/new](https://vercel.com/new)).
+2. If importing manually, set **Root Directory** to `frontend`.
+3. Provide the 3 Environment Variables:
+   * `GROQ_API_KEY`: Required for Groq Llama 3.3 70B & Whisper Large v3 Turbo ([Groq Console](https://console.groq.com/keys))
+   * `GEMINI_API_KEY`: Required for Gemini 3.6 Flash Real-Time Kinematic Director ([Google AI Studio](https://aistudio.google.com/))
+   * `GNANI_API_KEY`: Required for Gnani.ai 24kHz Indian English TTS (*optional, automatic Web Speech fallback included*)
+4. Click **Deploy**. Vercel will compile the Next.js App Router and serverless API endpoints, giving you a live `https://mood-mitra.vercel.app` URL to share!
 
 ## 🏗️ Technical Architecture
 
