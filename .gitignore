@@ -41,3 +41,8 @@ test_sample.wav
 # Local knowledge graph & scratch cache
 graphify-out/
 .agents/
+
+# Microsoft Office temporary lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
