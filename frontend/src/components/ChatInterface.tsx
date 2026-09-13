@@ -81,6 +81,8 @@ export default function ChatInterface() {
   isRecordingRef.current = isRecording;
   const audioChunksRef = useRef<Blob[]>([]);
   const transcriptReceivedRef = useRef<boolean>(false);
+  const currentTranscriptRef = useRef<string>("");
+  const speechDebounceTimerRef = useRef<NodeJS.Timeout | null>(null);
   const gestureTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const isVoiceCallActiveRef = useRef<boolean>(false);
   isVoiceCallActiveRef.current = isVoiceCallActive;
@@ -236,6 +238,10 @@ export default function ChatInterface() {
 
   // Safely release all microphone tracks, streams, and recognition sessions
   const stopAllRecordingStreams = () => {
+    if (speechDebounceTimerRef.current) {
+      clearTimeout(speechDebounceTimerRef.current);
+      speechDebounceTimerRef.current = null;
+    }
     setIsRecording(false);
     if (vadIntervalRef.current) {
       cancelAnimationFrame(vadIntervalRef.current);
@@ -269,6 +275,8 @@ export default function ChatInterface() {
     stopAllRecordingStreams();
 
     transcriptReceivedRef.current = false;
+    currentTranscriptRef.current = "";
+    if (speechDebounceTimerRef.current) clearTimeout(speechDebounceTimerRef.current);
     audioChunksRef.current = [];
     setIsRecording(true);
     setGesture("listening");
@@ -279,9 +287,11 @@ export default function ChatInterface() {
     if (SpeechRecognition) {
       try {
         const rec = new SpeechRecognition();
-        rec.continuous = false;
-        rec.interimResults = true; // Instant live words in input field!
+        rec.continuous = true; // Crucial: keep listening across breath pauses and multi-word sentences!
+        rec.interimResults = true;
         rec.lang = "en-IN";
+
+        let finalTranscriptsSoFar = "";
 
         rec.onstart = () => {
           setIsRecording(true);
@@ -290,42 +300,62 @@ export default function ChatInterface() {
 
         rec.onresult = (e: any) => {
           let interim = "";
-          let final = "";
           for (let i = e.resultIndex; i < e.results.length; ++i) {
             if (e.results[i].isFinal) {
-              final += e.results[i][0].transcript;
+              finalTranscriptsSoFar += " " + e.results[i][0].transcript;
             } else {
               interim += e.results[i][0].transcript;
             }
           }
-          if (interim) {
-            setInputValue(interim);
-          }
-          if (final && final.trim()) {
-            transcriptReceivedRef.current = true;
-            const cleanFinal = final.trim();
-            setInputValue(cleanFinal);
-            stopAllRecordingStreams();
-            sendMessage(cleanFinal);
+
+          const combinedText = (finalTranscriptsSoFar + " " + interim).trim();
+          if (combinedText) {
+            setInputValue(combinedText);
+            currentTranscriptRef.current = combinedText;
+
+            // Reset silence debounce: give the user 1.8 seconds of natural thinking/pause time before sending!
+            if (speechDebounceTimerRef.current) clearTimeout(speechDebounceTimerRef.current);
+            speechDebounceTimerRef.current = setTimeout(() => {
+              const fullSentence = currentTranscriptRef.current?.trim();
+              if (fullSentence && fullSentence.length > 1 && !transcriptReceivedRef.current) {
+                transcriptReceivedRef.current = true;
+                stopAllRecordingStreams();
+                sendMessage(fullSentence);
+              }
+            }, 1800);
           }
         };
 
         rec.onerror = (err: any) => {
           console.log("[STT Web Speech Notice]:", err?.error);
-          if (err?.error === "no-speech" && !transcriptReceivedRef.current) {
-            stopAllRecordingStreams();
+          if (err?.error === "no-speech" && !transcriptReceivedRef.current && !currentTranscriptRef.current) {
+            // Keep recording alive if in call mode
+            if (!isVoiceCallActiveRef.current) {
+              stopAllRecordingStreams();
+            }
           }
         };
 
         rec.onend = () => {
-          // If no final was fired yet but user spoke words in input field, send that
-          if (!transcriptReceivedRef.current && inputRef.current?.value?.trim()) {
-            const txt = inputRef.current.value.trim();
+          // If speech was collected and debounce hasn't sent it yet, send it now
+          if (!transcriptReceivedRef.current && currentTranscriptRef.current?.trim()) {
+            const txt = currentTranscriptRef.current.trim();
             transcriptReceivedRef.current = true;
             stopAllRecordingStreams();
             sendMessage(txt);
             return;
           }
+
+          // If in Voice Call mode and user just paused without speaking, smoothly keep listening!
+          if (isVoiceCallActiveRef.current && !transcriptReceivedRef.current && !isSpeaking && !isTyping) {
+            setTimeout(() => {
+              if (isVoiceCallActiveRef.current && !isSpeaking && !isTyping) {
+                startRecordingSession();
+              }
+            }, 300);
+            return;
+          }
+
           stopAllRecordingStreams();
         };
 
@@ -336,14 +366,13 @@ export default function ChatInterface() {
       }
     }
 
-    // Parallel MediaRecorder with Voice Activity Detection (VAD)
+    // Parallel MediaRecorder with tuned Energy VAD
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       mediaStreamRef.current = stream;
       const mediaRecorder = new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
 
-      // Real-Time Energy VAD (Detects 800ms silence after speech and auto-submits)
       if (audioContextRef.current) {
         try {
           const vadSource = audioContextRef.current.createMediaStreamSource(stream);
@@ -366,14 +395,15 @@ export default function ChatInterface() {
             }
             const rms = Math.sqrt(sumSq / dataArray.length);
 
-            if (rms > 0.038) {
+            // Responsive energy threshold for conversational speech
+            if (rms > 0.022) {
               studentHasVocalized = true;
               silenceStart = 0;
             } else if (studentHasVocalized) {
               if (silenceStart === 0) {
                 silenceStart = Date.now();
-              } else if (Date.now() - silenceStart > 800) {
-                // Silence threshold met: auto-finalize voice input cleanly
+              } else if (Date.now() - silenceStart > 2000) {
+                // Full 2.0s of silence after speech before auto-finalizing!
                 if (recognitionRef.current) {
                   try { recognitionRef.current.stop(); } catch (e) {}
                 }
@@ -401,7 +431,6 @@ export default function ChatInterface() {
       mediaRecorder.onstop = async () => {
         stream.getTracks().forEach(track => track.stop());
 
-        // If Web Speech already delivered transcript, skip Whisper call
         if (transcriptReceivedRef.current) return;
 
         if (audioChunksRef.current.length > 0) {
@@ -432,9 +461,9 @@ export default function ChatInterface() {
         }
       };
 
-      mediaRecorder.start();
-    } catch (micErr) {
-      console.warn("[Microphone Permission Note]:", micErr);
+      mediaRecorder.start(250);
+    } catch (streamErr) {
+      console.warn("[MediaStream Error]:", streamErr);
     }
   };
 

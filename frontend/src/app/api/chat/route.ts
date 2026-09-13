@@ -3,16 +3,24 @@ import kbData from "@/data/mentalHealthKB.json";
 
 export const runtime = "nodejs";
 
-const CRISIS_KEYWORDS = [
-  'kill myself', 'suicide', 'die', 'end my life', 
-  'hurt myself', 'giving up on life', "can't take this anymore", 
-  'cant take this anymore', 'no reason to live', 'hang myself',
-  'better off dead', 'want to disappear', 'kill me', 'jump off',
-  'ending it all', 'worthless life', 'no point living',
+const CRISIS_PHRASES = [
+  'kill myself', 'suicide', 'end my life', 'hurt myself', 
+  'giving up on life', "can't take this anymore", 'cant take this anymore', 
+  'no reason to live', 'hang myself', 'better off dead', 'want to disappear', 
+  'kill me', 'jump off', 'ending it all', 'worthless life', 'no point living',
   'mar jaunga', 'mar jaungi', 'jaan de dunga', 'jaan de dungi',
   'khudkushi', 'aatmhatya', 'zindagi khatam', 'sab khatam kar dunga',
   'cut my wrists', 'slit my wrist', 'swallow pills', 'poison myself'
 ];
+
+function isExplicitCrisis(text: string): boolean {
+  const lower = text.toLowerCase();
+  if (CRISIS_PHRASES.some(p => lower.includes(p))) return true;
+  // Use regex word boundaries for standalone short words
+  if (/\b(suicide|khudkushi|aatmhatya)\b/i.test(lower)) return true;
+  if (/\b(want to die|gonna die|wanna die|ready to die)\b/i.test(lower)) return true;
+  return false;
+}
 
 function analyzeUserInput(userText: string) {
   if (!userText || typeof userText !== "string") {
@@ -30,7 +38,7 @@ function analyzeUserInput(userText: string) {
   const lower = raw.toLowerCase();
 
   // 1. High-Priority Crisis Interception
-  const isCrisis = CRISIS_KEYWORDS.some(k => lower.includes(k));
+  const isCrisis = isExplicitCrisis(lower);
   if (isCrisis) {
     return {
       type: "crisis",
@@ -133,15 +141,27 @@ function analyzeUserInput(userText: string) {
   }
 
   if (bestMatch) {
+    let conversationalReply = bestMatch.knowledge_context || "";
+    conversationalReply = conversationalReply
+      .replace(/^CRISIS INTERVENTION:\s*/i, "")
+      .replace(/^THERAPEUTIC INTERVENTION:\s*/i, "")
+      .replace(/^NOTE:\s*/i, "");
+    
+    if (bestMatch.is_crisis === "TRUE" || bestMatch.is_crisis === true) {
+      conversationalReply = "Your life is infinitely precious to me and no exam is worth your breath. Please connect with Tele-MANAS toll-free at 14416 right now—you do not have to carry this alone.";
+    } else if (conversationalReply.length > 180 || conversationalReply.includes("Tell them") || conversationalReply.includes("Provide official") || conversationalReply.includes("Encourage")) {
+      conversationalReply = "I hear how much pressure you are carrying with your exams right now. Please remember that one mock score never defines your entire future. Take a gentle breath—we will tackle this step by step.";
+    }
+
     return {
       type: "kb_match",
-      reply: bestMatch.knowledge_context,
+      reply: conversationalReply,
       emotion: "calming",
       gesture: "reassuring_palms",
       facialExpression: "comforting",
       energy: 0.60,
       headTilt: 0.04,
-      isCrisis: false,
+      isCrisis: false, // Never let a loose KB keyword match falsely trigger crisis router
       isBreathing: bestMatch.category?.includes("panic"),
       category: bestMatch.category,
       contextUsed: bestMatch.knowledge_context
@@ -271,7 +291,8 @@ AUTHENTIC HINGLISH & YOUTH SLANG MASTERY (From L3Cube-Pune Hinglish Sentiment):
   * Use warm emojis (🫂, ✨, ❤️) naturally.
 
 CONCISENESS & 100% SPEECH SYNCHRONY:
-- Keep your entire reply strictly to 2 or 3 short, punchy sentences (under 45 words).
+- Strictly 2 or 3 short, punchy sentences (under 45 words total).
+- NEVER use markdown tables, bullet lists, bold headers, or long advice paragraphs.
 - Every single word you write is spoken aloud by the 3D avatar voice in real-time. Text and voice must match word-for-word.`;
 
         const formattedMessages = [
@@ -280,9 +301,9 @@ CONCISENESS & 100% SPEECH SYNCHRONY:
           { role: "user", content: message }
         ];
 
-        const modelName = process.env.GROQ_MODEL || "openai/gpt-oss-120b";
+        const modelName = process.env.GROQ_MODEL || "qwen/qwen3.8-27b";
         const groqController = new AbortController();
-        const groqTimer = setTimeout(() => groqController.abort(), 4000);
+        const groqTimer = setTimeout(() => groqController.abort(), 5500);
 
         const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
           method: "POST",
