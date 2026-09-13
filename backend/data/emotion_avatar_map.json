@@ -1,0 +1,300 @@
+{
+  "admiration": {
+    "vrm_expression": "happy",
+    "vrma_animation": "hand_to_chest.vrma",
+    "blendshape_weights": {
+      "happy": 0.8,
+      "relaxed": 0.5
+    },
+    "tts_pace": 0.95,
+    "tone": "warm_supportive",
+    "coping_strategy": "validation_and_warmth"
+  },
+  "amusement": {
+    "vrm_expression": "very_happy",
+    "vrma_animation": "supportive_wave.vrma",
+    "blendshape_weights": {
+      "happy": 1.0
+    },
+    "tts_pace": 1.05,
+    "tone": "uplifting_encouraging",
+    "coping_strategy": "celebrating_micro_wins"
+  },
+  "anger": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "calm_listening.vrma",
+    "blendshape_weights": {
+      "neutral": 0.6,
+      "sad": 0.2
+    },
+    "tts_pace": 0.9,
+    "tone": "de_escalating_neutral",
+    "coping_strategy": "non_judgmental_venting"
+  },
+  "annoyance": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "calm_listening.vrma",
+    "blendshape_weights": {
+      "neutral": 0.6,
+      "sad": 0.2
+    },
+    "tts_pace": 0.9,
+    "tone": "de_escalating_neutral",
+    "coping_strategy": "non_judgmental_venting"
+  },
+  "approval": {
+    "vrm_expression": "happy",
+    "vrma_animation": "hand_to_chest.vrma",
+    "blendshape_weights": {
+      "happy": 0.8,
+      "relaxed": 0.5
+    },
+    "tts_pace": 0.95,
+    "tone": "warm_supportive",
+    "coping_strategy": "validation_and_warmth"
+  },
+  "caring": {
+    "vrm_expression": "happy",
+    "vrma_animation": "hand_to_chest.vrma",
+    "blendshape_weights": {
+      "happy": 0.8,
+      "relaxed": 0.5
+    },
+    "tts_pace": 0.95,
+    "tone": "warm_supportive",
+    "coping_strategy": "validation_and_warmth"
+  },
+  "confusion": {
+    "vrm_expression": "thinking",
+    "vrma_animation": "thinking_pose.vrma",
+    "blendshape_weights": {
+      "neutral": 0.7,
+      "happy": 0.2
+    },
+    "tts_pace": 1.0,
+    "tone": "engaging_reflective",
+    "coping_strategy": "cognitive_reframing_cbt"
+  },
+  "curiosity": {
+    "vrm_expression": "thinking",
+    "vrma_animation": "thinking_pose.vrma",
+    "blendshape_weights": {
+      "neutral": 0.7,
+      "happy": 0.2
+    },
+    "tts_pace": 1.0,
+    "tone": "engaging_reflective",
+    "coping_strategy": "cognitive_reframing_cbt"
+  },
+  "desire": {
+    "vrm_expression": "neutral",
+    "vrma_animation": "calm_idle.vrma",
+    "blendshape_weights": {
+      "neutral": 0.8
+    },
+    "tts_pace": 1.0,
+    "tone": "attentive_ready",
+    "coping_strategy": "open_ended_inquiry"
+  },
+  "disappointment": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "gentle_nod.vrma",
+    "blendshape_weights": {
+      "sad": 0.7,
+      "neutral": 0.3
+    },
+    "tts_pace": 0.9,
+    "tone": "gentle_comforting",
+    "coping_strategy": "active_listening_and_unburdening"
+  },
+  "disapproval": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "calm_listening.vrma",
+    "blendshape_weights": {
+      "neutral": 0.6,
+      "sad": 0.2
+    },
+    "tts_pace": 0.9,
+    "tone": "de_escalating_neutral",
+    "coping_strategy": "non_judgmental_venting"
+  },
+  "disgust": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "calm_listening.vrma",
+    "blendshape_weights": {
+      "neutral": 0.6,
+      "sad": 0.2
+    },
+    "tts_pace": 0.9,
+    "tone": "de_escalating_neutral",
+    "coping_strategy": "non_judgmental_venting"
+  },
+  "embarrassment": {
+    "vrm_expression": "neutral",
+    "vrma_animation": "calm_idle.vrma",
+    "blendshape_weights": {
+      "neutral": 0.8
+    },
+    "tts_pace": 1.0,
+    "tone": "attentive_ready",
+    "coping_strategy": "open_ended_inquiry"
+  },
+  "excitement": {
+    "vrm_expression": "very_happy",
+    "vrma_animation": "supportive_wave.vrma",
+    "blendshape_weights": {
+      "happy": 1.0
+    },
+    "tts_pace": 1.05,
+    "tone": "uplifting_encouraging",
+    "coping_strategy": "celebrating_micro_wins"
+  },
+  "fear": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "breathing_exercise.vrma",
+    "blendshape_weights": {
+      "surprised": 0.3,
+      "sad": 0.4
+    },
+    "tts_pace": 0.85,
+    "tone": "slow_soothing",
+    "coping_strategy": "4_7_8_breathing_and_somatic_grounding"
+  },
+  "gratitude": {
+    "vrm_expression": "happy",
+    "vrma_animation": "hand_to_chest.vrma",
+    "blendshape_weights": {
+      "happy": 0.8,
+      "relaxed": 0.5
+    },
+    "tts_pace": 0.95,
+    "tone": "warm_supportive",
+    "coping_strategy": "validation_and_warmth"
+  },
+  "grief": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "gentle_nod.vrma",
+    "blendshape_weights": {
+      "sad": 0.7,
+      "neutral": 0.3
+    },
+    "tts_pace": 0.9,
+    "tone": "gentle_comforting",
+    "coping_strategy": "active_listening_and_unburdening"
+  },
+  "joy": {
+    "vrm_expression": "very_happy",
+    "vrma_animation": "supportive_wave.vrma",
+    "blendshape_weights": {
+      "happy": 1.0
+    },
+    "tts_pace": 1.05,
+    "tone": "uplifting_encouraging",
+    "coping_strategy": "celebrating_micro_wins"
+  },
+  "love": {
+    "vrm_expression": "happy",
+    "vrma_animation": "hand_to_chest.vrma",
+    "blendshape_weights": {
+      "happy": 0.8,
+      "relaxed": 0.5
+    },
+    "tts_pace": 0.95,
+    "tone": "warm_supportive",
+    "coping_strategy": "validation_and_warmth"
+  },
+  "nervousness": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "breathing_exercise.vrma",
+    "blendshape_weights": {
+      "surprised": 0.3,
+      "sad": 0.4
+    },
+    "tts_pace": 0.85,
+    "tone": "slow_soothing",
+    "coping_strategy": "4_7_8_breathing_and_somatic_grounding"
+  },
+  "optimism": {
+    "vrm_expression": "very_happy",
+    "vrma_animation": "supportive_wave.vrma",
+    "blendshape_weights": {
+      "happy": 1.0
+    },
+    "tts_pace": 1.05,
+    "tone": "uplifting_encouraging",
+    "coping_strategy": "celebrating_micro_wins"
+  },
+  "pride": {
+    "vrm_expression": "very_happy",
+    "vrma_animation": "supportive_wave.vrma",
+    "blendshape_weights": {
+      "happy": 1.0
+    },
+    "tts_pace": 1.05,
+    "tone": "uplifting_encouraging",
+    "coping_strategy": "celebrating_micro_wins"
+  },
+  "realization": {
+    "vrm_expression": "thinking",
+    "vrma_animation": "thinking_pose.vrma",
+    "blendshape_weights": {
+      "neutral": 0.7,
+      "happy": 0.2
+    },
+    "tts_pace": 1.0,
+    "tone": "engaging_reflective",
+    "coping_strategy": "cognitive_reframing_cbt"
+  },
+  "relief": {
+    "vrm_expression": "very_happy",
+    "vrma_animation": "supportive_wave.vrma",
+    "blendshape_weights": {
+      "happy": 1.0
+    },
+    "tts_pace": 1.05,
+    "tone": "uplifting_encouraging",
+    "coping_strategy": "celebrating_micro_wins"
+  },
+  "remorse": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "gentle_nod.vrma",
+    "blendshape_weights": {
+      "sad": 0.7,
+      "neutral": 0.3
+    },
+    "tts_pace": 0.9,
+    "tone": "gentle_comforting",
+    "coping_strategy": "active_listening_and_unburdening"
+  },
+  "sadness": {
+    "vrm_expression": "concerned",
+    "vrma_animation": "gentle_nod.vrma",
+    "blendshape_weights": {
+      "sad": 0.7,
+      "neutral": 0.3
+    },
+    "tts_pace": 0.9,
+    "tone": "gentle_comforting",
+    "coping_strategy": "active_listening_and_unburdening"
+  },
+  "surprise": {
+    "vrm_expression": "neutral",
+    "vrma_animation": "calm_idle.vrma",
+    "blendshape_weights": {
+      "neutral": 0.8
+    },
+    "tts_pace": 1.0,
+    "tone": "attentive_ready",
+    "coping_strategy": "open_ended_inquiry"
+  },
+  "neutral": {
+    "vrm_expression": "neutral",
+    "vrma_animation": "calm_idle.vrma",
+    "blendshape_weights": {
+      "neutral": 0.8
+    },
+    "tts_pace": 1.0,
+    "tone": "attentive_ready",
+    "coping_strategy": "open_ended_inquiry"
+  }
+}

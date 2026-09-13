@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build Output
+.next/
+*/.next/
+out/
+build/
+dist/
+
+# Environment variables & secrets (Never commit real API keys!)
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+!*.env.example
+
+# Debug and System logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary test audio
+*.wav
+*.webm
+test_sample.wav
+
+# Local knowledge graph & scratch cache
+graphify-out/
+.agents/
